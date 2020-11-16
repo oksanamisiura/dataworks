@@ -58,7 +58,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/alt_text_page">
+              <Link href="/alt-text-page">
                 <a>Go Shopping 2</a>
               </Link>
             </td>
