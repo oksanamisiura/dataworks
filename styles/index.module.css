@@ -1,73 +1,72 @@
 .container {
   padding: 50px;
   margin: auto;
-  max-width: 1366px;}
-.table{
+  max-width: 1366px;
+}
+.table {
   border-collapse: collapse;
-  border: 1px solid #9ba9b1; 
+  border: 1px solid #9ba9b1;
   width: 70%;
   height: 500px;
   /* color: #9ba9b1; */
+}
+.td {
+  border-bottom: 1px solid #9ba9b1;
+  padding: 10px;
+  height: 50px;
+  text-align: start;
+  font-size: 18px;
+}
+.title {
+  font-weight: 800;
+  font-size: 20px;
+  /* background-color: #3881b5; */
+  background-color: #302850;
+  z-index: 1300;
+  box-shadow: 0 0 2px 2px #00000042;
+}
+.line {
+  padding-bottom: 20px;
+  /* border-bottom: 2px solid black; */
+  margin-bottom: 20px;
+}
+.bottom_link {
+  color: blue;
+}
+.last_td {
+  height: 100px;
+}
+.border_bl {
+  border-left: 1px solid #9ba9b1;
+  width: 15%;
+}
+.td_1 {
+  /* width: 20%; */
 
-  }
-  .td{
-    border-bottom: 1px solid #9ba9b1;
-    padding: 10px;
-    height: 50px;
-    text-align: start;
-    font-size: 18px;
-    
-    }
-    .title{
-      font-weight: 800;
-      font-size: 20px;
-      /* background-color: #3881b5; */
-      background-color: #302850;
-      z-index: 1300;
-    box-shadow: 0 0 2px 2px #00000042;
-    }
-  .line{
-    padding-bottom: 20px;
-    /* border-bottom: 2px solid black; */
-    margin-bottom: 20px;
-  }
-  .bottom_link{
-    color: blue;
-  }
-  .last_td{
-    height: 100px;
-  }
-  .border_bl{
-    border-left:1px solid #9ba9b1;
-    width: 15%;
-  }
-  .td_1{
-    /* width: 20%; */
-
-    border-bottom: 1px solid #9ba9b1;
-padding: 10px;
-height: 50px;
-text-align: start;
-font-size: 18px;
-  }
-  .border_bl_bm{
-    /* border-bottom: 2px solid black; */
-    color: #fff;
-    padding: 10px;
-  }
-  .home{
-    text-decoration: underline;
-    color: blue;
-    font-weight: 800;
-    font-size: 20px;
-    padding-bottom: 40px;
-  }
-  .sec_title{
-    margin-top: 40px;
-  }
-  .sec_text{
-    margin-top: 40px;
-  }
-  .sec_subtitle{
-    margin-top: 40px;
-  }
+  border-bottom: 1px solid #9ba9b1;
+  padding: 10px;
+  height: 50px;
+  text-align: start;
+  font-size: 18px;
+}
+.border_bl_bm {
+  /* border-bottom: 2px solid black; */
+  color: #fff;
+  padding: 10px;
+}
+.home {
+  text-decoration: underline;
+  color: blue;
+  font-weight: 800;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.sec_title {
+  margin-top: 40px;
+}
+.sec_text {
+  margin-top: 40px;
+}
+.sec_subtitle {
+  margin-top: 40px;
+}
