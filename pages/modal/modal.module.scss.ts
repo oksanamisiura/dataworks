@@ -1,0 +1,17 @@
+export const website_title: string = "";
+export const site_header: string = "";
+export const pm_logo: string = "";
+export const img: string = "";
+export const nav: string = "";
+export const a: string = "";
+export const main: string = "";
+export const main_aside_left: string = "";
+export const modal_div: string = "";
+export const button: string = "";
+export const Modal: string = "";
+export const Component: string = "";
+export const close: string = "";
+export const main_aside_right: string = "";
+export const modal_logo: string = "";
+export const accordion: string = "";
+export const panel: string = "";

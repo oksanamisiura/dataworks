@@ -7,21 +7,6 @@ import Head from "next/head";
 import indexStyles from "../styles/index.module.css";
 
 const PageTwo = () => {
-  // return (
-  //   <div>
-  //     <Head>
-  //       <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet" />
-  //     </Head>
-  //     <Header />
-  //     <div className={indexStyles.container}>
-  //       <Toggle />
-
-  //       <Layout>
-  //         <div className={tabsStyles.content}>This is tab two content</div>
-  //       </Layout>
-  //     </div>
-  //   </div>
-  // )
   return (
     <div>
       <Head>
@@ -64,32 +49,6 @@ const PageTwo = () => {
                   Creme de rouge Hydration et Galbe Absolu Pro-Xylane - SPF 12
                 </p>
               </div>
-              {/* <div className={tabsStyles.tab} >
-                <button className={tabsStyles.tablinks}>Presentation</button>
-                <button className={tabsStyles.tablinks}>Expertise & Conseils</button>
-              </div>
-              <div className={tabsStyles.tabcontent} >
-                <div className={tabsStyles.tab_aside_left}>
-                  <h4>Presentationn</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium beatae adipisci sit sed
-                iste repellat hic quod expedita. Saepe voluptate</p>
-                </div>
-                <div className={tabsStyles.tab_aside_right} ></div>
-                <h5>Choose your color</h5>
-                <button>Add to cart</button>
-              </div>
-
-              <div className={tabsStyles.tabcontent} >
-                <div className={tabsStyles.tab_aside_left}>
-                  <h4>Expertise & Conseils</h4>
-                  <p>Est, in a perspiciatis nam qui reiciendis aliquid
-                odio expedita ut neque sit quibusdam enim inventore</p>
-                </div> */}
-              {/* <div className={tabsStyles.tab_aside_right} >
-
-              </div>
-
-            </div> */}
 
               <Layout>
                 <div className={tabsStyles.content}>
