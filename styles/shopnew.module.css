@@ -1,0 +1,419 @@
+.container {
+  padding: 50px;
+  max-width: 1366px;
+  margin: auto;
+}
+.instruction_title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.aside_right {
+  border: 1px solid black;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.aside_right_item {
+  padding: 30px;
+}
+.aside_right_img {
+  width: 100%;
+}
+.aside_left_item {
+  padding-bottom: 30px;
+}
+.aside_right_title {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 28px;
+  margin-right: 20px;
+}
+.menu {
+  width: 100%;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 40px;
+}
+
+.main_img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.rest_img {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+.menu_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.purple {
+  background-color: #e8d4f0;
+  padding: 30px;
+  border: none;
+}
+.blush {
+  background-color: #fdd5e0;
+  padding: 30px;
+  border: none;
+}
+.aqua {
+  background-color: #d6f4f6;
+  padding: 30px;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+}
+.img_item {
+  margin-top: 18px;
+  cursor: pointer;
+  width: 20%;
+  height: 20%;
+}
+
+/* .btn-container{
+  position: absolute;
+  bottom: 200px;
+
+
+}
+.item-info{
+  position: relative;
+  
+} */
+.select {
+  /* width: 200px; */
+  height: 30px;
+}
+.add_btn {
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px;
+  cursor: pointer;
+}
+.all_img {
+  max-width: 600px;
+  width: 100%;
+}
+.price {
+  font-weight: bold;
+  font-size: 28px;
+}
+/* .section-center{
+
+  border-top: 1px solid #e1e1e1;
+  padding-top: 40px;
+
+} */
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.navbar_item {
+  margin: 20px;
+  text-transform: uppercase;
+}
+.item_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.h4 {
+  margin-bottom: 40px;
+
+  font-size: 20px;
+}
+.item_color {
+  margin-bottom: 40px;
+}
+.selection {
+  margin-bottom: 10px;
+}
+.select {
+  margin-bottom: 40px;
+
+  position: relative;
+  min-height: 50px;
+  min-width: 200px;
+  cursor: pointer;
+  padding: 5px;
+}
+.btn_container {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.add_btn {
+  margin-bottom: 20px;
+  /* max-width: 200px; */
+  padding: 20px, 10px, 40px, 10px;
+  border-radius: 3px;
+  min-height: 50px;
+}
+.item_text {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.filter_btn {
+  margin-right: 10px;
+}
+.filter_btn_blush {
+  padding: 30px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #fdd5e0;
+}
+.filter_btn_purple {
+  padding: 30px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #e8d4f0;
+}
+.filter_btn_aqua {
+  padding: 30px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #d6f4f6;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in-out 0.5s;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+}
+/* .accordion:last-child{
+  border-bottom: 1px solid gray;
+} */
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #e4e4e4;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 18px;
+  background-color: white;
+
+  overflow: hidden;
+}
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.panel {
+  font-size: 18px;
+}
+.item_text {
+  font-size: 18px;
+}
+/* menu styles */
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  font-family: Arial;
+  color: black;
+}
+
+/* Links inside the navbar */
+.navbar_a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: auto;
+}
+
+/* Dropdown button */
+.dropdown {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #ab0e0e;
+}
+
+/* Dropdown content (hidden by default) */
+
+.dropdown_content {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 30px;
+}
+.nav_title {
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Mega Menu header, if needed */
+/* .dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+} */
+.nav_title:hover {
+  cursor: pointer;
+  background-color: #ab0e0e;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  /* width: 20%; */
+  padding: 10px;
+  background-color: #fff;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style links inside the columns */
+.column_a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column_a:hover {
+  background-color: #fff;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.h3 {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.column_a {
+  padding: 5px;
+  margin: 0;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.icon_text {
+  color: gray;
+  text-align: center;
+  margin-top: 30px;
+}
+.icon {
+  /* justify-content: center;  */
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin: auto;
+}
+.icon_text:hover {
+  cursor: pointer;
+  color: black;
+}
+.icon_img {
+  margin: auto;
+}
+.shopnew_info_section {
+  width: 50%;
+}
+.section_center {
+  width: 100%;
+}
+.select {
+  height: 50px;
+}

@@ -1,0 +1,183 @@
+.nav {
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.a {
+  color: black;
+  text-decoration: none;
+  /* border: 1px solid gray; */
+  padding: 20px;
+  margin: 5px;
+  /* border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray; */
+}
+.active {
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-bottom: none;
+  margin: 10px;
+  color: black;
+}
+.active:hover {
+  text-decoration: none;
+}
+.inactive {
+  color: #0070f3;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin: 5px;
+  border-bottom: none;
+  margin: 10px;
+  background-color: black;
+  color: #fff;
+}
+.inactive:hover {
+  text-decoration: none;
+}
+.contentcover {
+  border: 1px solid black;
+}
+.content {
+  padding: 20px;
+  margin: 5px;
+  min-height: 300px;
+}
+.content_title {
+  margin-bottom: 40px;
+}
+.website_title {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  /* margin-bottom: 30px; */
+  display: flex;
+  justify-content: center;
+}
+.site_header {
+  /* height: 100px; */
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.nav_a {
+  text-transform: uppercase;
+  margin-left: 40px;
+  cursor: pointer;
+  color: black;
+}
+.up_header {
+  height: 100px;
+  background-color: black;
+  color: #fff;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.site_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.site_content {
+  display: flex;
+  flex-direction: row;
+}
+.site_img {
+  width: 50%;
+}
+.site_details {
+  width: 70%;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab_button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  background-color: #ccc;
+  margin: 0 5px 0 5px;
+}
+
+/* Change background color of buttons on hover */
+.tab_button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab_button.active {
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  background-color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: flex;
+  flex-direction: row;
+  /* display: none; */
+  padding: 6px 12px;
+  /* border: 1px solid #ccc; */
+  border-top: none;
+}
+
+.tab_aside_left {
+  /* border-right: 1px solid gray; */
+  min-height: 150px;
+  /* width: 50%; */
+}
+.tab_aside_right {
+  /* min-height: 150px; */
+}
+.h3 {
+  margin-bottom: 40px;
+}
+.product_info {
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+.footer {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  height: 40px;
+}
+.h4 {
+  margin: 10px 0 10px 0;
+}
+
+.site_logo {
+  display: flex;
+  height: 20%;
+  margin-right: 10px;
+}
+.site_logo_img {
+  margin-right: 10px;
+}
+.logo_text {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}

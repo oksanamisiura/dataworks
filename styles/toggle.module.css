@@ -1,0 +1,41 @@
+.show_btn{
+  padding: 10px 20px 10px 20px;
+  box-shadow: 3px 5px 10px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #302850;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.myDiv{
+  display: none;
+  margin-top: 40px;
+
+}
+.myDiv_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 22px;
+}
+.instruction_title{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.aside_right{
+  border: 1px solid black;
+ padding: 40px;
+ display: flex;
+ flex-direction: column;
+
+}
+.aside_right_item{
+  padding: 30px;
+}
+.aside_left_item{
+  padding-bottom: 30px;
+}
+

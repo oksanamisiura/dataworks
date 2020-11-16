@@ -1,0 +1,130 @@
+.inactiveCat {
+  padding: 16px;
+  margin: 5px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  /* color: red; */
+  /* background-color: #c3c2d5; */
+  border-radius: 9px;
+  font-size: 28px;
+}
+.inactiveCat:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.activeCat {
+  padding: 16px;
+  margin: 5px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  /* color: red; */
+  background-color: #c3c2d5;
+  border-radius: 9px;
+  font-size: 28px;
+}
+.activeCat:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.postItem {
+  margin: auto;
+}
+.listItem {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #c3c2d5;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 60px;
+}
+.img {
+  margin-bottom: 40px;
+  margin: auto;
+  padding: 10px;
+}
+.postItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.book_title {
+  color: #072d59;
+  text-decoration: none;
+  font-size: 30px;
+  margin: auto;
+  cursor: pointer;
+}
+.lastPage {
+  padding: 16px;
+  margin: 5px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  /* color: red; */
+  /* background-color: #c3c2d5; */
+  border-radius: 9px;
+  font-size: 28px;
+}
+.lastPage:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.prevPage {
+  padding: 16px;
+  margin: 5px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  /* color: red; */
+  /* background-color: #c3c2d5; */
+  border-radius: 9px;
+  font-size: 28px;
+}
+.prevPage:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.firstPage {
+  padding: 16px;
+  margin: 5px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  /* color: red; */
+  /* background-color: #c3c2d5; */
+  border-radius: 9px;
+  font-size: 28px;
+}
+.firstPage:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.nextPage {
+  padding: 16px;
+  margin: 5px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  /* color: red; */
+  /* background-color: #c3c2d5; */
+  border-radius: 9px;
+  font-size: 28px;
+}
+.nextPage:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+.disabled {
+  padding: 16px;
+  margin: 5px;
+  border-radius: 9px;
+  font-size: 28px;
+  color: lightgray;
+}
+.disabled:hover {
+  text-decoration: none;
+}
