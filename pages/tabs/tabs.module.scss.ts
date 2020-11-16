@@ -1,0 +1,16 @@
+export const up_header: string = "";
+export const website_title: string = "";
+export const site_header: string = "";
+export const site_logo: string = "";
+export const logo_text: string = "";
+export const nav: string = "";
+export const nav_a: string = "";
+export const site_container: string = "";
+export const site_content: string = "";
+export const site_img: string = "";
+export const site_details: string = "";
+export const product_info: string = "";
+export const contentcover: string = "";
+export const content: string = "";
+export const content_title: string = "";
+export const footer: string = "";

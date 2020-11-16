@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "../../header";
-import Toggle from "../../toggleMenu";
+import Toggle from "../../toggle-menu";
 import indexStyles from "../../../styles/index.module.css";
 // import { useRouter } from 'next/router'
 import utilStyles from "../../../styles/utils.module.css";

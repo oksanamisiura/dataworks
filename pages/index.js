@@ -26,7 +26,7 @@ export default function IndexPage() {
 
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/bookstoreSimple">
+              <Link href="/bookstore-simple">
                 <a>Simple Book Store</a>
               </Link>
             </td>
@@ -47,7 +47,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/shoppage">
+              <Link href="/shop-page">
                 <a>Go Shopping</a>
               </Link>
             </td>
@@ -58,7 +58,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/alt_text_page">
+              <Link href="/alt-text">
                 <a>Go Shopping 2</a>
               </Link>
             </td>
@@ -69,7 +69,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/basic_page_5">
+              <Link href="/basic-page">
                 <a>Go Shopping 3</a>
               </Link>
             </td>
@@ -77,30 +77,6 @@ export default function IndexPage() {
               Hidden data. Extract two divs in html
             </td>
           </tr>
-
-          {/* <tr>
-            <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/shopping_page"><a>Go Shopping 5</a></Link>
-
-            </td>
-            <td className={indexStyles.td} colSpan="6">Hidden data. Extract the data comes from array </td>
-          </tr>
-          <tr>
-            <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/shopping_new"><a>Shopping new</a></Link>
-
-            </td>
-            <td className={indexStyles.td} colSpan="6">Hidden data. Extract the data comes from array and different actions</td>
-          </tr>
-
-
-          <tr>
-            <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/pagescroll"><a>Infinite scroll</a></Link>
-
-            </td>
-            <td className={indexStyles.td} colSpan="6">Hidden data. Extract data from Infinite scroll (API based)</td>
-          </tr> */}
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
               <Link href="/bookstore">
@@ -123,7 +99,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/infinitescroll">
+              <Link href="/infinite-scroll">
                 <a>Infinite scroll</a>
               </Link>
             </td>
@@ -131,21 +107,6 @@ export default function IndexPage() {
               Hidden data. Extract data from different pages
             </td>
           </tr>
-          {/* <tr>
-            <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/modal"><a>Modal</a></Link>
-
-            </td>
-            <td className={indexStyles.td} colSpan="6">Hidden data. Extract data from modal windows</td>
-          </tr>
-          <tr>
-            <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/tabs"><a>Tabs</a></Link>
-
-            </td>
-            <td className={indexStyles.td} colSpan="6">Hidden data. Extract data from different tabs</td>
-          </tr> */}
-
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
               <Link href="/modal">
@@ -169,7 +130,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/shopping_new">
+              <Link href="/shopping-new">
                 <a>Shopping new</a>
               </Link>
             </td>
@@ -186,7 +147,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/css_selectors">
+              <Link href="/css-selectors">
                 <a>CSS Selectors</a>
               </Link>
             </td>
@@ -196,7 +157,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/xpath_selectors">
+              <Link href="/xpath-selectors">
                 <a>XPath Selectors</a>
               </Link>
             </td>
@@ -206,7 +167,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td className={indexStyles.td_1} colSpan="1">
-              <Link href="/extention_introduction">
+              <Link href="/extention-introduction">
                 <a>Extension introduction</a>
               </Link>
             </td>
@@ -215,13 +176,6 @@ export default function IndexPage() {
             </td>
           </tr>
         </table>
-        <Link href="/test">
-          <a>test</a>
-        </Link>
-        <br />
-        <Link href="/text2">
-          <a>test</a>
-        </Link>
       </main>
     </body>
   );

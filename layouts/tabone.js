@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import tabsStyles from "../styles/tabs.module.css";
-
+import tabsStyles from "../pages/tabs/tabs.module.scss";
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
